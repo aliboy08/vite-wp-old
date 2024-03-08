@@ -4,13 +4,13 @@ Clone the repo to your theme directory
 ```
 gh repo clone aliboy08/vite-wp
 ```
-<br/>
+
 Run install
 ```
 npm install --legacy-peer-deps
 ```
 
-<br/>
+
 Add sample codes to your theme functions
 ```
 include_once 'vite-wp/vite-for-wp.php';
