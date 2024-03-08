@@ -5,6 +5,7 @@ Clone the repo on your theme folder
 gh repo clone aliboy08/vite-wp
 ```
 
+
 Add sample codes to your theme functions.php
 ```
 include_once 'vite-wp/vite-for-wp.php';
