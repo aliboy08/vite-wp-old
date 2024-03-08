@@ -6,7 +6,7 @@ gh repo clone aliboy08/vite-wp
 ```
 
 
-Add sample codes to your theme functions.php
+Add sample codes to your theme functions
 ```
 include_once 'vite-wp/vite-for-wp.php';
 use FF\Vite;
