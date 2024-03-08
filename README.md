@@ -2,7 +2,7 @@
 
 Add sample codes to your theme functions.php
 ```
-include_once 'vite/vite-for-wp.php';
+include_once 'vite-wp/vite-for-wp.php';
 use FF\Vite;
 
 add_action( 'wp_enqueue_scripts', function() {
@@ -10,5 +10,3 @@ add_action( 'wp_enqueue_scripts', function() {
 	Vite\enqueue_asset( $dist, 'src/main.js', [ 'handle' => 'main' ] );
 });
 ```
-
-
