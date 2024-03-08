@@ -1,6 +1,6 @@
 <h1>Vite + WP theme boilerplate</h1>
 
-Clone the repo to your theme folder
+Clone the repo to your theme directory
 ```
 gh repo clone aliboy08/vite-wp
 ```
