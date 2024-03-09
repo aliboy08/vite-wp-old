@@ -21,3 +21,14 @@ add_action( 'wp_enqueue_scripts', function() {
     Vite\enqueue_asset( $dist, 'src/main.js', [ 'handle' => 'main' ] );
 });
 ```
+
+To start developement
+```
+npm run dev
+```
+
+
+To bundle for production
+```
+npm run build
+```
