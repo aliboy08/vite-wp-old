@@ -22,7 +22,7 @@ add_action( 'wp_enqueue_scripts', function() {
 });
 ```
 
-To start developement
+To start development
 ```
 npm run dev
 ```
