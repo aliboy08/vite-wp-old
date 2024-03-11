@@ -17,8 +17,7 @@ include_once 'vite-wp/vite-for-wp.php';
 use FF\Vite;
 
 add_action( 'wp_enqueue_scripts', function() {
-    $dist = __DIR__ . '/vite-wp/dist';
-    Vite\enqueue_asset( $dist, 'src/main.js', [ 'handle' => 'main' ] );
+    Vite\load_file('main', 'src/main.js');
 });
 ```
 
