@@ -14,10 +14,9 @@ npm install --legacy-peer-deps
 Add sample codes to your theme functions
 ```
 include_once 'vite-wp/vite-for-wp.php';
-use FF\Vite;
 
 add_action( 'wp_enqueue_scripts', function() {
-    Vite\load_file('main', 'src/main.js');
+    FF\Vite\load_file('main', 'src/main.js');
 });
 ```
 
