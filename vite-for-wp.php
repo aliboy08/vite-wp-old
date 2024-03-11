@@ -417,3 +417,10 @@ function enqueue_asset( string $manifest_dir, string $entry, array $options ): b
 
 	return true;
 }
+
+function load_file( string $handle, string $src, string $dist_dir = '' ) {
+    if( !$dist_dir ) {
+        $dist_dir = __DIR__ . '/dist';
+    }
+    enqueue_asset( $dist_dir, $src, [ 'handle' => $src ] );
+}
